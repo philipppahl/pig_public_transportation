@@ -1,4 +1,4 @@
-REGISTER /home/philipp/projects/pig_public_transportation/lib/udf/ruby/public_transportation_eval.rb using jruby as public_transportation_eval;
+REGISTER $JRUBY/public_transportation_eval.rb using jruby as public_transportation_eval;
 
 
 log = LOAD '$INPUT' USING PigStorage(';') AS (address:chararray, city:chararray, charge:chararray, no_idea:chararray, plate:chararray, lng:double, lat:double, vin:chararray, time:chararray);
