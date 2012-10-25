@@ -1,0 +1,11 @@
+GEM
+  specs:
+    configliere (0.4.8)
+      json
+    json (1.5.0-java)
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  configliere
