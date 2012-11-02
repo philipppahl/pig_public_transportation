@@ -14,8 +14,8 @@ $: << File.expand_path(PigPublicTransportation.root + '/lib',  __FILE__)
 # contains persistent jar files
 $: << File.expand_path(PigPublicTransportation.root + '/lib/java',  __FILE__)
 
-require 'pig_script'
-#require 'hadoop-core-1.0.0.jar'
+require 'core/pig_script'
+#require 'hadoop-common-0.23.4.jar'
 
 # export the jruby jar
 jruby_jar = "#{PigPublicTransportation.root}/lib/java/jruby-complete-1.7.0.jar"
